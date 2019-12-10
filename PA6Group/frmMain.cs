@@ -24,5 +24,10 @@ namespace PA6Group
         {
 
         }
+
+        private void BtnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
